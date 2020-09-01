@@ -6,7 +6,7 @@ def cheese_and_crackers(cheese_count,crackers_count):
     print(f"But you end up having {crackers_count} crackers !")
     print(f"I think that should be enough for a party")
     print(f"Get a Blanket..\n..
-    ..and enjoy the evening... ")
+    ..and enjoy the evening..")
 
 #By this way you call the functions and the value assignment operators
 cheese_and_crackers(20,30)
