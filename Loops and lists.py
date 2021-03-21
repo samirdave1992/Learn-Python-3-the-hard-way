@@ -20,3 +20,27 @@ print('   '.join(stuff))
 print('#'.join(stuff[3:5]))
 
 
+print(more_stuff)
+
+
+#For loop in lists
+
+Bikes=['Honda','Yamaha','Suzuki','Ducati']
+
+for items in Bikes:
+    print (f"{items} is a great bike")
+
+
+#Numerical lists
+for anything in range(1,9):
+    print(anything)
+
+
+
+#populating a empty list
+
+to_be_full=[]
+for value in range(0,15):
+    fibo=value+3
+    to_be_full.append(fibo)
+print(to_be_full)
